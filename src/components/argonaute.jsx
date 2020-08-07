@@ -4,7 +4,8 @@ const Argonaute = (props) => {
     return (
     <div className="member-item">
         <p>{props.name}</p>
-        <button className="button" onClick={() => props.supprimerArgonaute(props.id)}>Supprimer</button>
+        <button className="button"
+         onClick={() => props.supprimerArgonaute(props.id)}>x</button>
     </div>
     );
 };

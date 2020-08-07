@@ -29,8 +29,8 @@ class App extends Component {
       }
 
     render () {     
-        return (
-            <div>
+        return (  
+            <div className="main">
                 <Form ajouterArgonaute={this.ajouterArgonaute}/>
                 <ArgoList supprimerArgonaute={this.supprimerArgonaute} argonautes={this.state.argonautes}/>
             </div>
