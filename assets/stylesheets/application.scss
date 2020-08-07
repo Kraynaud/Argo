@@ -59,7 +59,7 @@ label {
 .member-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 100px;
+  grid-gap: 80px;
 }
 
 .member-item {
@@ -67,9 +67,13 @@ label {
     font-size: 18px;
     font-weight: 600;
   }
+  img {
+    width: 80px;
+    height: auto;
+  }
   box-shadow: 0 0 15px rgba(244, 244, 244, 0.4);
   background-color: white;
-  padding: 50px 100px;
+  padding: 50px 80px;
   text-align: center;
 }
 
