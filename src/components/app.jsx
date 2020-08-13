@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Form from './form';
 import ArgoList from './argo_list';
-import argonautes from '../argonautes';
+// import argonautes from '../argonautes';
 import base from '../base';
 
 class App extends Component {
     state = {
-        argonautes
+        argonautes: []
     }
 
     componentDidMount () {
